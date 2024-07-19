@@ -252,7 +252,8 @@
         
         <h3 id="contact__form" class="">Contact Us</h3>
         
-        <form action="https://formsubmit.co/13c20d1a23da490514b14543ba3b3144" method="post" class="contact__form">
+        <form action="https://api.web3forms.com/submit" method="post" class="contact__form">
+            <input type="hidden" name="access_key" value="0c4b253c-24b2-4cda-bc74-d1e8d3e71e95">
         <input type="text" name="name" class="contact__name" placeholder="Name & Surname" id="contact__name" required>
         <input type="text" name="company name" class="contact__comname" placeholder="Region" id="contact__comname" required>
         <input type="number" name="number" class="contact__number" placeholder="Contact Number" id="contact__number" required>
@@ -268,7 +269,10 @@
 
         <textarea name="message" id="contact-message" cols="35" rows="5" class="contact__message" placeholder="Message Us"></textarea>
         <div class="contact__button-wrapper">
-            <input type="submit" class="contact__btn btn btn-secondary" value="Send Message" id="sendbtn">
+
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <button type="submit">Send Message</button>
+           
         </div>
         </form>
         

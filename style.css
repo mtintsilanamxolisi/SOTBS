@@ -201,15 +201,48 @@ nav li:first-child {
 }
 
 .home h1 {
-    font-size: 1.9rem;
+    font-size: 8rem;
     color: var(--colour-p6);
     padding: 1rem 0;
     width: 70rem;
 }
 
+.home img {
+
+    width: ;
+    height: 64vh;
+}
+
+.home p {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7CE38;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    width: 90%;
+    font-size: 3rem;
+    color: #fff;
+}
+
+
+
 .home div {
     padding-top: 40px;
     padding-bottom: 0px;
+}
+
+
+
+/* ------------ABOUT US --------------*/
+
+
+.about img {
+   
+    
 }
 
 
@@ -241,9 +274,12 @@ nav li:first-child {
 
 }
 
-.about image img {
-    height: 65vh;
-    width: 100%;
+.about .image img {
+    height: 90vh;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   margin: auto;
 
 
 }
@@ -257,13 +293,70 @@ nav li:first-child {
 }
 
 
+.about h3 {
+
+    text-align: center;
+    font-size: 10rem;
+    color: var(--colour-p5);
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
 
 
+.about p {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: #4FB1A1;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    color: var(--colour-p6);
+  font-weight: bold;
+  font-size: 3rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
 
 
+/* ----------- subjects ----------------- */
 
 
+.subjects img {
+    height: 120vh;
+    margin: auto;
+    display: flex;
 
+}
+
+.subjects h3 {
+    text-align: center;
+    font-size: 10rem;
+    color: var(--colour-p5);
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.subjects p {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    width: 55%;
+    color: var(--colour-p5);
+    background-color: #e27d39aa;
+    border-radius: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
 
 /* ----------- CONTACT  US ----------------- */
 
@@ -276,7 +369,7 @@ nav li:first-child {
     border-radius: 11px;
     height: 25px;
     border-width: 1px;
-    width: 250px;
+    width: 500px;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -286,17 +379,46 @@ nav li:first-child {
 
 .contact__message,
 .contact__select {
-    width: 250px;
+    width: 500px;
     border-radius: 25px;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
+.contact__select h3 {
+    font-size: 5rem;
+    overflow: hidden;
+    width: auto;
+    text-align: center;
+    color: var(--colour-p6);
+    padding-top: 0;
+
+}
+
+.contact__select {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    padding-top: 25px;
+
+
+}
+
 .contact__form {
-   left: 100px;
+
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+   
+}
+
+.contact__form::before {
+    justify-content: center;
 }
 
 
@@ -314,7 +436,9 @@ nav li:first-child {
 .footer__links {
 
     display: flex;
-    justify-content: space-evenly;
+    margin: auto;
+    width: 20%;
+    justify-content: center;
     gap: 2.5rem;
     flex: 25%;
 }
@@ -374,7 +498,25 @@ nav li:first-child {
 
     .menu_btn {
         display: block;
+        ;
         
+        
+    }
+
+    .home p {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        width: 95%;
+        color: var(--colour-p5);
+        background-color: #F7CE38;
+        border-radius: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
+        margin: auto;
+    
     }
     
 }
@@ -445,7 +587,7 @@ nav li:first-child {
     display: flex;
     align-items: center;
     overflow: hidden;
-    height: 30rem;
+    height: 25rem;
     
 
 }
@@ -460,6 +602,8 @@ nav li:first-child {
     width: auto;
     text-align: center;
     color: var(--colour-p6);
+    padding: 0;
+
 }
 
 .about p {
@@ -542,6 +686,19 @@ nav li:first-child {
 .subjects div  {
     
 }
+
+.contact__name,
+.contact__comname,
+.contact__number,
+.contact__email,
+.contact__message,
+.contact__select {
+
+    width: 290px;
+    
+}
+
+
 .footer
  {
     display: flex;
