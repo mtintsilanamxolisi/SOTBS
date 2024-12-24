@@ -368,8 +368,8 @@ nav li:first-child {
 
 
 .folder-container {
-    background-color: #fff;
-    border: 2px solid #e0e0e0;
+    background-color:;
+   
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -389,12 +389,15 @@ nav li:first-child {
 
 .folder ul li {
     margin: 8px 0;
+    text-align: center;
 }
 
 .folder ul li a {
     text-decoration: none;
     color: #007bff;
     font-size: 18px;
+    text-align: center;
+    
 }
 
 .folder ul li a:hover {
@@ -549,13 +552,24 @@ nav li:first-child {
 
 /* Navigation Bar */
 
+/* File Heading */
+
+.fileheading {
+    top: 200px;
+    left: 100px;
+    justify-content: center;
+    display: flex;
+}
+
+
 /* PDF Grid Container */
 .pdf-grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Set to 4 columns */
     grid-gap: 20px; /* Space between grid items */
     padding: 40px;
-    max-width: 1200px;
+    height: ;
+    max-width: 1500px;
     margin: 20px auto; /* Center the grid container */
 }
 
@@ -566,7 +580,7 @@ nav li:first-child {
     overflow: hidden;
     position: relative; /* Needed for overlay positioning */
     transition: transform 0.3s ease;
-    height: 300px; /* Set a fixed height */
+    height: 400px; /* Set a fixed height */
 }
 
 .pdf-item:hover {
@@ -611,6 +625,7 @@ nav li:first-child {
 .pdf-controls {
     text-align: center;
     padding: 10px;
+   
 }
 
 .download-button {
@@ -619,6 +634,7 @@ nav li:first-child {
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
+   
     font-size: 16px;
     display: inline-block;
     transition: background-color 0.3s ease;
